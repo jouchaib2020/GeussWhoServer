@@ -2,7 +2,7 @@ import { Sequelize } from 'sequelize';
 // Create a new Sequelize instance
 const sequelize = new Sequelize({
   dialect: 'sqlite',
-  storage: "C:/Users/jaoua/OneDrive/Bureau/POLITO/Web app/Exam/exam3-guesswho-jouchaib2020/server/db/db.sqlite", // relative path doesn't work
+  storage: "/data/db/db.sqlite", // relative path doesn't work
 });
 
 
