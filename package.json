@@ -5,7 +5,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "npx nodemon server.js"
+    "start": "npx nodemon server.js",
+    "build": "npm run build:prod"
   },
   "author": "Jaouad ouchaib",
   "license": "ISC",
