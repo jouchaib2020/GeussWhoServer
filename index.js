@@ -31,7 +31,7 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 
-app.use(cors({origin: '*',credentials: true}));
+app.use(cors({origin: 'https://jouchaib2020.github.io',credentials: true}));
 
 // Import and use the API routes
 app.use('/api',router);
